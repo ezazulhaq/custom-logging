@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch CustomLoggingApplication",
+      "request": "launch",
+      "mainClass": "com.task.customlogging.CustomLoggingApplication",
+      "projectName": "customer-logging",
+      "args": "logFile.txt"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-CustomerLoggingApplication<customer-logging>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.task.customerlogging.CustomerLoggingApplication",
+      "projectName": "customer-logging",
+      "args": ""
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-CustomerLoggingApplication<customer-logging>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.task.customlogging.CustomerLoggingApplication",
+      "projectName": "customer-logging",
+      "args": ""
+    }
+  ]
+}
